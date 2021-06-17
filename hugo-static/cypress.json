@@ -1,0 +1,5 @@
+{
+  "baseUrl": "http://localhost:54844/hugo/",
+  "video": false,
+  "siteMap": "http://localhost:54844/hugo/sitemap.xml"
+}

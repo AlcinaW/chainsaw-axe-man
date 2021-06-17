@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/fr/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pages.gitlab.io/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pages.gitlab.io/hugo/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pages.gitlab.io/hugo/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pages.gitlab.io/hugo/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/fr/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://pages.gitlab.io/hugo/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://pages.gitlab.io/hugo/fr/tags/"
+                />
+  </url>
+  
+</urlset>

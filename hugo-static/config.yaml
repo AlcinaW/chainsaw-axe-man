@@ -1,0 +1,79 @@
+baseurl: https://pages.gitlab.io/hugo/
+themesDir: shared
+theme: hugo
+publishDir: dist
+title: "Test Site"
+canonifyurls: true
+languageCode: en-us
+canonifyURLs: false
+enableRobotsTXT: true
+defaultContentLanguage: en
+title: Test
+
+publishDir: dist
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: static
+      target: static
+    - source: static/img
+      target: static/img
+    - source: shared/static
+      target: static
+    - source: shared/static/img
+      target: static/img
+    - source: shared/assets
+      target: assets
+    - source: shared/css
+      target: assets/shared/css
+    - source: shared/assets
+      target: assets
+
+languages:
+  en:
+    languageCode: en-us
+    weight: 1
+  es:
+    languageCode: es-ES
+    weight: 2
+  de:
+    languageCode: de-DE
+    weight: 2
+  fr:
+    languageCode: fr-FR
+    weight: 2
+  jp:
+    languageCode: jp-JP
+    weight: 2
+  ru:
+    languageCode: ru-RU
+    weight: 2
+  it:
+    languageCode: it-IT
+    weight: 2
+  ko:
+    languageCode: ko-KR
+    weight: 2
+  pt:
+    languageCode: pt-BR
+    weight: 2
+  zh-cn:
+    languageCode: zh-CN
+    weight: 2
+  zh-tw:
+    languageCode: zh-TW
+    weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
