@@ -26,7 +26,7 @@ module.exports = (on, config) => {
 // module.exports = (on, config) => {
 //   on('task', {
 //     sitemapLocations() {
-//       //TODO: the current sitemap is hardcoded to 1P
+//       //TODO: the current sitemap is hardcoded
 //       return fetch(`${config.baseUrl}/sitemap.xml`, {
 //         method: 'GET',
 //         headers: {
